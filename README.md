@@ -16,10 +16,14 @@ these two factors.
 From my statistical analysis, with a P-value of 0.0001<alpha indicating strong evidence against the null hypothesis, it appears that there is a correlation
 between the gender of an infant and their weight.
 Another statistical analysis examines the relationship between a mother's smoking and the gender of her infant.
+
 **Null Hypothesis (Ho)**: there is a significant relationship(correlation) between the weight of the infant's birth and the mom’s smoking.
+
 **Alternative hypothesis (Ha)**: there is no significant relationship between the weight of the infant's birth and the child's gender.
+
 After conducting a statistical analysis, I can confirm that the claim is invalid. The P-value was 0.0004, which is less than the alpha of 0.05, leading me to
 reject the null hypothesis. Therefore, I found no relationship between the mother's smoking habit and the infant's birth weight.
+
 **Independent T-test for samples Weight by infant gender**
 I conducted a statistical analysis to explore the potential correlation between a baby's gender and their birth weight. To assist me in
 my analysis, I employed an independent t-test. Was there a relationship between these two variables? There were only two possible
@@ -30,8 +34,11 @@ population. Additionally, I confirmed that the groups I compared were independen
 When I examined the test results, I focused on the p-value. The p-value indicates the likelihood that the observed results were due to
 chance. In this instance, the p-value was incredibly low, indicating that there is indeed a correlation between a baby's gender and
 their birth weight. I support my examination with the statistical analysis down below.
+
 **Null Hypothesis (Ho**): there is no significant relationship(correlation) between the weight of the infant’s birth and the baby’s gender.
+
 **Alternative hypothesis (Ha)**: there is a significant relationship between the weight of the infant’s birth and the child's gender.
+
 My samples are independent. I see they are normally distributed based on a Q-Q plot, and the samples are more than 30.
 
 ![image](https://github.com/user-attachments/assets/10ee502b-3643-4c54-9d5e-edf8ce036991)
@@ -58,8 +65,11 @@ with a confidence level of 95%.
 **Independent T-test for samples Weight by Mom Smoke habit**
 I performed a T-test to examine the relationship between the weight of infants’ birth and the variable Mom-smoke to see if there is
 any relationship between the two independent variables.
+
 **Null Hypothesis (Ho)**: a significant relationship(correlation) exists between the infant’s birth weight and the mom-smoke habit.
+
 **Alternative hypothesis (Ha)**: no significant relationship exists between the infant’s birth weight and the mom-Smoke habit.
+
 My samples are independent. I see they are normally distributed based on a Q-Q plot, and the samples are more than 30.
 
 ![image](https://github.com/user-attachments/assets/e79e7019-8cbd-452c-8562-762ba06cc141)
