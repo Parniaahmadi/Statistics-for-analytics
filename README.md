@@ -8,8 +8,11 @@ between the mother’s health and the infant’s birth weight, and the baby'gend
 hypothesis, I will focus on the mother's smoking habits and the gender of the baby.
 I have conducted a statistical analysis to investigate a potential correlation between infant gender and weight. I assert that there is no correlation between
 these two factors.
+
 **Null Hypothesis (Ho)**: there is no significant relationship(correlation) between the weight of the infant's birth and the baby's gender.
+
 **Alternative hypothesis (Ha)**: a significant relationship exists between the weight of the infant's birth and the child's gender.
+
 From my statistical analysis, with a P-value of 0.0001<alpha indicating strong evidence against the null hypothesis, it appears that there is a correlation
 between the gender of an infant and their weight.
 Another statistical analysis examines the relationship between a mother's smoking and the gender of her infant.
