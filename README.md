@@ -52,59 +52,24 @@ with a confidence level of 95%.
 
 
 
-Independent T-test for samples Weight by Mom Smoke habit
+**Independent T-test for samples Weight by Mom Smoke habit**
 I performed a T-test to examine the relationship between the weight of infants’ birth and the variable Mom-smoke to see if there is
 any relationship between the two independent variables.
-Null Hypothesis (Ho): a significant relationship(correlation) exists between the infant’s birth weight and the mom-smoke habit.
-Alternative hypothesis (Ha): no significant relationship exists between the infant’s birth weight and the mom-Smoke habit.
+**Null Hypothesis (Ho)**: a significant relationship(correlation) exists between the infant’s birth weight and the mom-smoke habit.
+**Alternative hypothesis (Ha)**: no significant relationship exists between the infant’s birth weight and the mom-Smoke habit.
 My samples are independent. I see they are normally distributed based on a Q-Q plot, and the samples are more than 30.
-The TTEST Procedure
-Variable: Weight (Weight)
-MomSmoke Method Mean 95% CL Mean Std Dev 95% CL Std Dev
-0 3402.3 3397.1 3407.6 558.0 554.3 561.8
-1 3160.9 3146.9 3174.8 576.8 567.0 586.8
-Diff (1-2) Pooled 241.5 226.9 256.0 560.5 557.1 564.0
-Diff (1-2) Satterthwaite 241.5 226.5 256.4
-Method Variances DF t Value Pr > |t|
-Pooled Equal 49998 32.46 <.0001
-Satterthwaite Unequal 8474.1 31.68 <.0001
-Equality of Variances
-Method Num DF Den DF F Value Pr > F
-Folded F 6532 43466 1.07 0.0004
+
+![image](https://github.com/user-attachments/assets/e79e7019-8cbd-452c-8562-762ba06cc141)
+
 
 The output above prints the t-statistic (T value=31.68 for unequal variances, T value= 32.46 for equal variances) and the degrees of
 freedom 49998 for equal variances and 8474.1 for unequal variances (n - 1). The P-value is 0.0004, less than 0.05, so we reject the
 null hypothesis in favour of the Alternative hypothesis.
-MomSmoke Method N Mean Std Dev Std Err Minimum Maximum
-0 43467 3402.3 558.0 2.6766 240.0 6350.0
-1 6533 3160.9 576.8 7.1358 312.0 5245.0
-Diff (1-2) Pooled 241.5 560.5 7.4376
-Diff (1-2) Satterthwaite 241.5 7.6213
-P-value<0.05, Based on
-P-value number, we
-reject the Null
-hypothesis.
-By default, Sas
-performs a two-tail
-T-Test
-Assuming Equal variances
-Assuming Unequal
-variances
-95% of
-Confidence
-level
-We can
-confidently
-state with 95%
-certainty that
-there is no
-significant
-correlation
-between baby
-birth weight
-and mom
-smoke habit.
-Interpretation of the output
+
+![image](https://github.com/user-attachments/assets/a98efcda-98d4-4ec3-a3a7-bf1bdf4c06b5)
+
+
+**Interpretation of the output**
 Since the p-value is 0.0004, it is less than Alpha (0.0004<0.05). We reject the Null hypothesis at the 5% significance level, which says
 a significant relationship exists between the weight of the infant’s birth and the mom-smoke habit.
 Based on statistics, we say there is no significant relationship between the weight of the infant’s birth and the mom-smoke habit,
