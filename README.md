@@ -1,5 +1,6 @@
 # Statistics-for-analytics
-Outcomes of the Project: 1. Perform data wrangling/munging 2. Conduct Data Audit 3. Use hypothesis testing to assess prior belief 4. Use ANOVA to analyze categorical problems 5. Apply linear regression to solve business problems 6. Solve binary problems with logistic regression 7. Interpret model results and present relevant business insight 
+
+This project explores the relationship between maternal health factors and infant birth weight. Specifically, it examines whether a correlation exists between the mother's condition, such as smoking habits, and the weight of the infant at birth. Additionally, it investigates whether the infant's gender has any impact on birth weight. Through statistical analysis, the project aims to identify any significant correlations and contribute to a broader understanding of the factors influencing infant birth weight.
 
 I received data that contained information about infant birth weight, including details about the mother's gender, marital status, age, baby's gender, smoking
 habits, weight gain during pregnancy, number of prenatal visits, and education level. I plan to investigate if there is a correlation between the mother's
